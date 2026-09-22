@@ -1,0 +1,124 @@
+/*
+ * =========================================================
+ * Martes 22 de Septiembre 
+ * Alumno: Isabel Porras Guajardo
+ * Carrera: Diseño de la Comunicación Gráfica
+ * Institución: Universidad Autónoma de Durango (Lobos Alamedas) 
+ * Hoja de Estilos Exclusiva (CSS2) - Arte Digital CSS
+ * =========================================================
+ */
+
+body.page-extra {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.content-box {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #334155;
+}
+
+h1 {
+    color: #38bdf8;
+}
+
+/* Arte CSS: Mascota Digital / Logotipo Abstracto Lobo */
+.art-container {
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: radial-gradient(circle, #1e293b 0%, #0f172a 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #38bdf8;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+.wolf-head {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 90px solid #cbd5e1;
+    position: relative;
+    top: 10px;
+}
+
+.ear-left {
+    position: absolute;
+    top: -40px;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #94a3b8;
+    transform: rotate(-15deg);
+}
+
+.ear-right {
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid #94a3b8;
+    transform: rotate(15deg);
+}
+
+.eye-left {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+    width: 12px;
+    height: 12px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ef4444;
+}
+
+.eye-right {
+    position: absolute;
+    top: 30px;
+    right: -25px;
+    width: 12px;
+    height: 12px;
+    background-color: #ef4444;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #ef4444;
+}
+
+.snout {
+    position: absolute;
+    top: 60px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 30px solid #0f172a;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}

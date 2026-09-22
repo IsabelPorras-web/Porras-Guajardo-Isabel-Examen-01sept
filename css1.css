@@ -1,0 +1,150 @@
+/*
+ * =========================================================
+ * Martes 22 de Septiembre 
+ * Alumno: Isabel Porras Guajardo
+ * Carrera: Diseño de la Comunicación Gráfica
+ * Institución: Universidad Autónoma de Durango (Lobos Alamedas) 
+ * Hoja de Estilos Principal (CSS1)
+ * =========================================================
+ */
+
+/* Estilos Generales para las páginas conectadas */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.content-box {
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+}
+
+.nav-links {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 8px;
+    color: #ffffff;
+    background-color: #1a252f;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b30000;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+/* ---------------------------------------------------------
+   ESTILO 1: index.html
+   --------------------------------------------------------- */
+body.page-index {
+    background-color: #f0f4f8;
+    color: #102a43;
+}
+
+body.page-index h1 {
+    color: #b30000;
+}
+
+body.page-index .content-box {
+    border-top: 6px solid #b30000;
+}
+
+/* ---------------------------------------------------------
+   ESTILO 2: Pag01.html
+   --------------------------------------------------------- */
+body.page-pag01 {
+    background-color: #fffbea;
+    color: #453200;
+}
+
+body.page-pag01 h1 {
+    color: #d97706;
+}
+
+body.page-pag01 .content-box {
+    border-left: 6px solid #d97706;
+}
+
+/* ---------------------------------------------------------
+   ESTILO 3: Pag02.html
+   --------------------------------------------------------- */
+body.page-pag02 {
+    background-color: #f0fdf4;
+    color: #064e3b;
+}
+
+body.page-pag02 h1 {
+    color: #059669;
+}
+
+body.page-pag02 .content-box {
+    border-right: 6px solid #059669;
+}
+
+/* ---------------------------------------------------------
+   ESTILO 4: Pag03.html
+   --------------------------------------------------------- */
+body.page-pag03 {
+    background-color: #fef2f2;
+    color: #7f1d1d;
+}
+
+body.page-pag03 h1 {
+    color: #dc2626;
+}
+
+body.page-pag03 .content-box {
+    border-bottom: 6px solid #dc2626;
+}
+
+/* ---------------------------------------------------------
+   ESTILO 5: Pag04.html
+   --------------------------------------------------------- */
+body.page-pag04 {
+    background-color: #faf5ff;
+    color: #581c87;
+}
+
+body.page-pag04 h1 {
+    color: #7e22ce;
+}
+
+body.page-pag04 .content-box {
+    border: 2px dashed #7e22ce;
+}
